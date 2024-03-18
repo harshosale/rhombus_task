@@ -1,0 +1,41 @@
+.Container {
+  margin: 5%;
+  padding: 2%;
+}
+
+.Row{
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.Spacing {
+  padding: 2px;
+  margin: 2px;
+}
+
+.NavBar {
+  justify-content: space-between;
+}
+
+.Item{
+  text-align: center;
+  flex: 1;
+}
+
+.Border {
+  border: gray solid 1px;
+  margin: 2px;
+}
+
+.Uploader{
+  width: 40px;
+  height: 40px;
+  font-size: large;
+}
